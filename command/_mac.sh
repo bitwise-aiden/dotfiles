@@ -1,3 +1,4 @@
+alias logseq="open -a 'Logseq'"
 alias slack="open -a 'Slack'"
 alias spotify="open -a'Spotify'"
 
@@ -11,11 +12,6 @@ chrome() {
 start() {
     chrome
     slack
-    spotify
-
-    spin vpn start
-
-    shopify
 
     if ! [ -x "$(command -v script_start)" ]; then
         script_start
