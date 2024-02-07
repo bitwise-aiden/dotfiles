@@ -1,4 +1,3 @@
-
 [alias]
     current = rev-parse --abbrev-ref HEAD
     default = "!git checkout $(git main)"
